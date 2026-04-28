@@ -40,7 +40,7 @@ boxes.forEach((box) => {
   });
 });
 const showWinner= (Winner) =>{
-    msg.innerText='Congratulations, Winner is ${Winner}';
+    msg.innerText=`gratulations, Winner is ${Winner}`;
     msgContainer.classList.remove("hide");
     disableBoxes();
 }
